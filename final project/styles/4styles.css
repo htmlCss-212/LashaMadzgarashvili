@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
 
 .head1{
     display: flex;
@@ -24,96 +24,57 @@
     transition: 1s;
 }
 
+body{
+    background-color: #FFE7CB;
+}
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
 
 h1{
     text-align: center;
-    font-family: "Oranienbaum", serif;
+    color: #C39F74;
+    text-shadow: 2px 2px 5px rgb(255, 170, 110);
+    margin-top: 5%;
+
+}
+
+.menu2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    color: #ffffff;
+    font-family: "Great Vibes", cursive;
     font-weight: bold;
-    font-style: 30px;
-    color: white;
-    
-    
-}
-
-.log{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Indie Flower", cursive;
-    font-weight: 400;
     font-style: normal;
-    margin-top: 12%;
-    color: azure;
-}
-
-.log input{
-    width: 20%;
-    padding: 5px;
-}
-
-.log input:focus{
-    cursor: pointer;
-    background-color: rgb(148, 0, 0);
-}
-.container input{
-    padding: 50px;
-    
-}
-
-.container{
-    margin-top: 2%;
-}
-
-
-#submit{
-    background-color: orange;
-    color: white;
-    font-family: "Oranienbaum", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 2%;
-    width: 15%;
-    padding: 10px;
-    
-}
-
-body{
-    background-image:url(https://img.freepik.com/free-vector/realistic-coffee-background-with-drawings_157027-1112.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.icon a i{
-    padding: 20px;
-    background-color: bisque;
-    border-radius: 50%;
-}
-
-.icon i:hover{
-    margin-top: 10px;
-    transition: 0.5s;
-}
-
-#way{
     font-size: 30px;
+    text-shadow: 2px 2px 5px red;
 }
 
-.radio{
+.menu3{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 2%;
+    justify-content: space-around;
+    padding: 40px;
 }
 
+.menu4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    color: #ffffff;
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px red;
+}
 
 *{
     padding:0;
@@ -179,7 +140,7 @@ footer{
     transition: 0.5;
 }
 
-.footernav ul li :hover{
+.footernav ul li a :hover{
     margin-right: 10px;
     transition: 0.5s;
 }
@@ -212,16 +173,12 @@ footer{
         width: 100%;
         text-align: center;
     }
-
-    .main3  {
-        flex-direction: column;
-
-    }
 }
 
 footer{
  margin-top: 5%;   
 }
+
 
 .dropdown{
     display: inline-block;
@@ -263,4 +220,3 @@ footer{
 .dropdown a:hover{
     background-color: #111;
 }
-

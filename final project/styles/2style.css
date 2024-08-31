@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
 
 .head1{
     display: flex;
@@ -7,7 +8,7 @@
     justify-content: space-around; 
     font-size: 24px;
     background-color:#fec979 ;
-    height: 90px;
+    height: 12%;
     align-items: center;
     border-radius: 40px;
     position: sticky;
@@ -19,101 +20,130 @@
 }
 
 .head1 a:hover{
-    color: rgb(255, 255, 255);
-    margin-right: 10px;
-    transition: 1s;
-}
-
-
-
-h1{
-    text-align: center;
-    font-family: "Oranienbaum", serif;
-    font-weight: bold;
-    font-style: 30px;
-    color: white;
-    
-    
-}
-
-.log{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Indie Flower", cursive;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 12%;
-    color: azure;
-}
-
-.log input{
-    width: 20%;
-    padding: 5px;
-}
-
-.log input:focus{
-    cursor: pointer;
-    background-color: rgb(148, 0, 0);
-}
-.container input{
-    padding: 50px;
-    
-}
-
-.container{
-    margin-top: 2%;
-}
-
-
-#submit{
-    background-color: orange;
-    color: white;
-    font-family: "Oranienbaum", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 2%;
-    width: 15%;
+    color: rgb(252, 249, 249);
     padding: 10px;
-    
-}
-
-body{
-    background-image:url(https://img.freepik.com/free-vector/realistic-coffee-background-with-drawings_157027-1112.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.icon a i{
-    padding: 20px;
-    background-color: bisque;
-    border-radius: 50%;
-}
-
-.icon i:hover{
-    margin-top: 10px;
     transition: 0.5s;
 }
 
-#way{
-    font-size: 30px;
+h1{
+    text-align: right;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-right: 10%; 
+    
 }
 
-.radio{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 2%;
+#img1{
+    border: solid;
+    border-radius: 30%;
+    border-color: azure;
+     top: 30%;
+    left: 10%;
+    position: absolute; 
+    width: 250px;
+    height: 250px;
 }
 
+#img1:hover{
+    transform: rotate(15deg);
+    transition-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+#img2:hover{
+    transform: rotate(15deg);
+    transition-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+#img2{
+    border: solid;
+    border-radius: 30%;
+    border-color: azure;
+     top: 30%;
+    left: 43%;
+    position: absolute; 
+    width: 250px;
+    height:250px ;
+}
+
+.cl{
+    margin-top: 7%;
+}
+
+#img3{
+   position: absolute;
+   right: 3%; 
+   width: 20%;
+   height: 70%;
+}
+
+#h2{
+   text-align: center;
+   margin-top: 10%;
+   font-size: 40px;
+   color: azure;
+   text-shadow: 2px 2px 5px rgb(255, 0, 0);
+}
+
+.blog{
+    width: 70%;
+    height: 50%;
+}
+
+#user{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 127%;
+    right: 21%;
+}
+
+#inp{
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    right:3%;
+    top: 132%;
+    text-align: center;
+}
+
+input:focus{
+    background-color: cornsilk;
+}
+
+.typer{
+    margin-top: 5%;
+}
+
+#but1{
+    width: 5%;
+    height: 5%;
+    background-color: red;
+    color: azure;
+    border: solid;
+    border-radius: none;
+    position: absolute;
+    top: 159%;
+    right: 3%;
+}
+
+#but1:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.star{
+    position: absolute;
+    top: 128%;
+    right: 13%;
+}
+
+body{
+    background-color: cornsilk;
+}
 
 *{
     padding:0;
@@ -179,7 +209,7 @@ footer{
     transition: 0.5;
 }
 
-.footernav ul li :hover{
+.footernav ul li a :hover{
     margin-right: 10px;
     transition: 0.5s;
 }
@@ -212,16 +242,12 @@ footer{
         width: 100%;
         text-align: center;
     }
-
-    .main3  {
-        flex-direction: column;
-
-    }
 }
 
 footer{
- margin-top: 5%;   
+ margin-top: 25%;   
 }
+
 
 .dropdown{
     display: inline-block;
@@ -236,7 +262,7 @@ footer{
 
 }
 
-.dropdown button{
+.dropdown .button{
     background-color: #111;
     color: aliceblue;
     padding: 15px 20px;
@@ -256,11 +282,10 @@ footer{
     display: block;
 }
 
-.dropdown:hover button{
+.dropdown:hover .button{
     background-color: #111;
 }
 
 .dropdown a:hover{
     background-color: #111;
 }
-

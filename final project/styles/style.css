@@ -166,7 +166,7 @@ body{
 
 
 body {
-      background-image: url(/images/imagesss.jpg) ; 
+      background-image: url(https://static.vecteezy.com/system/resources/previews/010/571/116/original/seamless-pattern-for-cafe-menu-coffee-and-tea-endless-wallpaper-for-printing-on-fabric-packing-paper-lemon-slice-doodle-illustration-vector.jpg) ; 
       background-repeat: no-repeat;
       background-size: cover;
 }
@@ -339,3 +339,4 @@ footer{
 .dropdown a:hover{
     background-color: #111;
 }
+
